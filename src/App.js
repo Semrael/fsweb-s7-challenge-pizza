@@ -1,11 +1,8 @@
 import React from "react";
 
+import MainPage from "./layout/Main";
+
 const App = () => {
-  return (
-    <>
-      <h1>Teknolojik Yemekler</h1>
-      <p>Burdaki kodu silip kendi headerınızı ekleyebilirsiniz</p>
-    </>
-  );
+  return <MainPage />;
 };
 export default App;

@@ -1,13 +1,79 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #ce2829;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.navlinks {
+  display: flex;
+  align-items: flex-start;
+}
+.navlink11 {
+  background-color: #ce2829;
+}
+header {
+  background-color: #ce2829;
+}
+h1 {
+  text-align: center;
+  color: #faf7f2;
+  font-family: "Barlow";
+  font-weight: 700;
+}
+
+ul {
+  margin: 0;
+  color: #faf7f2;
+  font-family: "Barlow";
+  font-weight: 100;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #faf7f2;
+  font-family: "Barlow";
+}
+
+#order-button {
+  min-width: 100%;
+}
+
+#toplam {
+  color: #ce2829;
+}
+
+.homePage {
+  background-color: #ce2829;
+}
+
+.homePage > div > h2 {
+  color: #faf7f2;
+  font-family: "Barlow";
+}
+
+#rating > p {
+  padding-left: 3rem;
+}
+
+.successPage > h2 {
+  color: #faf7f2;
+  font-family: "Barlow";
+}
+
+.successBody {
+  background-color: #ce2829;
+}
+
+.order-page {
+  background-color: aliceblue;
 }
